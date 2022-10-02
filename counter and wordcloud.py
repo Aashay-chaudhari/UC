@@ -15,7 +15,7 @@ f = open("bible.txt", 'r')
 # Counter is used to count the number of occurrences
 # If we give it a string, it will count character occurrences
 # If we give it a list, it will count element occurrences
-
+# 2 uses: drop stop words and gives importance of the term if it's not a stop word
 counter = Counter()
 for t in f:
     counter.update(re.findall('\w+', t))
