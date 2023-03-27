@@ -1,6 +1,3 @@
-# UC
-A repo for all programs I learnt at UC
-
 For this project, I have selected the dataset US births. This dataset can be found here: https://www.kaggle.com/datasets/des137/us-births-2018
 
 I have performed EDA on this dataset by first training the model using the optimum regressor from the sklearn library, and then analysed using SHAP values.
